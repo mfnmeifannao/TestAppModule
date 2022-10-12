@@ -1,17 +1,22 @@
 workspace 'TestAppModule.xcworkspace'
 source 'https://github.com/CocoaPods/Specs.git'
-source 'http://EXAMPLE/TestAppModule'
+source 'https://github.com/mfnmeifannao/TestAppModule.git'
 
 platform :ios, '10.0'
 inhibit_all_warnings!
 
 target 'TestBasic' do
   project 'TestBasic/TestBasic.xcodeproj'
-pod "MGJRouter"
+#pod "MGJRouter"
 end
 
 target 'TestOC' do
   project 'TestOC/TestOC.xcodeproj'
+  pod 'TestAppModule/TestBasic', :path => '../TestAppModule'
+end
+
+target 'TestSwift' do
+  project 'TestSwift/TestSwift.xcodeproj'
   pod 'TestAppModule/TestBasic', :path => '../TestAppModule'
 end
 

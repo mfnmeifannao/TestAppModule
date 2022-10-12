@@ -1,0 +1,16 @@
+PODS:
+  - TestAppModule/TestBasic (1.0.0)
+
+DEPENDENCIES:
+  - TestAppModule/TestBasic (from `../TestAppModule`)
+
+EXTERNAL SOURCES:
+  TestAppModule:
+    :path: "../TestAppModule"
+
+SPEC CHECKSUMS:
+  TestAppModule: 00e1acfed5d7faa0e02e4c5ac7aa8a40fced363d
+
+PODFILE CHECKSUM: cd91487a971cfe57edb4ccd3624f6c51077658c7
+
+COCOAPODS: 1.11.3
