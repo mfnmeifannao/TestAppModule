@@ -12,7 +12,7 @@ s.ios.deployment_target = '10.0'
 
     #基础组件
     s.subspec 'TestBasic' do |bm|
-        bm.source_files = 'TestBasic/TestBasic/Tools/**/*.{h,m,swift}'
+        bm.source_files = 'TestBasic/TestBasic/Tools/**/*.{h,m,swift,o}'
         bm.resource_bundles = {
             'TestBasic' => [
             'TestBasic/TestBasic/Tools/**/*.{storyboard,xcassets,xib,json}'
@@ -24,7 +24,7 @@ s.ios.deployment_target = '10.0'
 
     #TestOC组件
     s.subspec 'TestOC' do |oc|
-        oc.source_files = 'TestOC/TestOC/Classes/**/*.{h,m,swift}'
+        oc.source_files = 'TestOC/TestOC/Classes/**/*.{h,m,swift,o}'
         oc.resource_bundles = {
             'TestOC' => [
             'TestOC/TestOC/Classes/**/*.{storyboard,xcassets,xib,json}'
@@ -38,7 +38,7 @@ s.ios.deployment_target = '10.0'
 
     #TestSwift组件
     s.subspec 'TestSwift' do |swift|
-        swift.source_files = 'TestSwift/TestSwift/Classes/**/*.{h,m,swift}'
+        swift.source_files = 'TestSwift/TestSwift/Classes/**/*.{h,m,swift,o}'
         swift.resource_bundles = {
             'TestSwift' => [
             'TestSwift/TestSwift/Classes/**/*.{storyboard,xcassets,xib,json}'

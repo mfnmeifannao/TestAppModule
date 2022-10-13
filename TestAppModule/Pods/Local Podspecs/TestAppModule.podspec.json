@@ -17,7 +17,7 @@
   "subspecs": [
     {
       "name": "TestBasic",
-      "source_files": "TestBasic/TestBasic/Tools/**/*.{h,m,swift}",
+      "source_files": "TestBasic/TestBasic/Tools/**/*.{h,m,swift,o}",
       "resource_bundles": {
         "TestBasic": [
           "TestBasic/TestBasic/Tools/**/*.{storyboard,xcassets,xib,json}"
@@ -29,7 +29,7 @@
     },
     {
       "name": "TestOC",
-      "source_files": "TestOC/TestOC/Classes/**/*.{h,m,swift}",
+      "source_files": "TestOC/TestOC/Classes/**/*.{h,m,swift,o}",
       "resource_bundles": {
         "TestOC": [
           "TestOC/TestOC/Classes/**/*.{storyboard,xcassets,xib,json}"
@@ -46,7 +46,7 @@
     },
     {
       "name": "TestSwift",
-      "source_files": "TestSwift/TestSwift/Classes/**/*.{h,m,swift}",
+      "source_files": "TestSwift/TestSwift/Classes/**/*.{h,m,swift,o}",
       "resource_bundles": {
         "TestSwift": [
           "TestSwift/TestSwift/Classes/**/*.{storyboard,xcassets,xib,json}"
